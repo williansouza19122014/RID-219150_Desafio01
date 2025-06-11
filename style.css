@@ -1,0 +1,86 @@
+       *{
+            margin: 0;
+        }   
+        .título {
+            background-color: #303030;
+            color: #ffffff;
+            font-size: 60px;
+            font-family: inter;
+            padding: 200px 0px 200px 100px;
+
+        }
+        .mercado {
+            background-color: #F9F9F9;
+            height: 229px;
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 20px;
+            padding: 0 100px;
+            gap: 40px;
+        }
+
+        .conteudo{
+            background-color: white;
+            display:flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 20px;
+            padding: 0 100px;
+            gap: 40px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+        .conteudo p{
+            font-size: 26px;
+        }
+
+        #formulario{
+            background-color: #303030;
+            color: #ffffff;
+            text-align: center;
+            padding: 100px;
+
+        }
+
+        #titulo-form{
+            font-size: 32px;
+
+        }
+        #subtitle{
+            font-size: 20px;
+        }
+        input{
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 60px;
+            margin: 25px;
+            font-size: 24px;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        button{
+            font-size: 24px;
+
+            background-color: #C07212;
+            color: white;
+            width: 300px;
+            height: 60px;
+            margin: 25px;
+            font-size: 24px;
+            border-radius: 5px;
+            padding-left: 10px;
+            border-radius: 5px;
+            font-weight: bolder;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background-color: #A05B0F;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: #A05B0F 0px 0px 10px;
+
+        }
+
